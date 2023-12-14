@@ -1,11 +1,11 @@
 repo_name: skerbis/search_it
-report_id: e4c65d0a144ffbc0932077edbae937ad
+report_id: 1b136ce7ae00512b10106c2f7a044d1b
 repo_type: Public
-timestamp: '2023-11-20T12:51:19+00:00'
-requested_by: tyrant88
+timestamp: '2023-12-14T10:22:29+00:00'
+requested_by: skerbis
 provider: github
 branch: master
-detected_tools_count: 7
+detected_tools_count: 9
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -44,7 +44,18 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: uninstall.sql
+  detection_source: plugins/autocomplete/install.sql
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: plugins/stats/images/phplot/NEWS.txt
+  last_updated_by: tyrant88
+  last_updated_on: 2016-09-28 14:17:40.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -77,3 +88,14 @@ tools:
   detection_source: ".travis.yml"
   last_updated_by: Markus Staab
   last_updated_on: 2019-04-29 08:31:35.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: plugins/stats/images/phplot/NEWS.txt
+  last_updated_by: tyrant88
+  last_updated_on: 2016-09-28 14:17:40.000000000 Z
