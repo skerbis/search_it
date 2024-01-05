@@ -1,7 +1,8 @@
 repo_name: skerbis/search_it
-report_id: 1b136ce7ae00512b10106c2f7a044d1b
+report_id: e4c65d0a144ffbc0932077edbae937ad
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T10:22:29+00:00'
+timestamp: '2024-01-05T08:52:40+00:00'
 requested_by: skerbis
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/skerbis/search_it
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/skerbis/search_it
   detection_source: Repo Metadata
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/skerbis/search_it
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/skerbis/search_it/blob/master/plugins/autocomplete/install.sql
   detection_source: plugins/autocomplete/install.sql
 - name: pgvector
   description: Open-source vector similarity search for Postgres
@@ -53,6 +58,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/skerbis/search_it/blob/master/plugins/stats/images/phplot/NEWS.txt
   detection_source: plugins/stats/images/phplot/NEWS.txt
   last_updated_by: tyrant88
   last_updated_on: 2016-09-28 14:17:40.000000000 Z
@@ -64,6 +70,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/skerbis/search_it
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -73,6 +80,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/skerbis/search_it/blob/master/.github/workflows/publish-to-redaxo-org.yml
   detection_source: ".github/workflows/publish-to-redaxo-org.yml"
   last_updated_by: Norbert Micheel
   last_updated_on: 2023-09-23 17:20:20.000000000 Z
@@ -85,6 +93,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/skerbis/search_it/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Markus Staab
   last_updated_on: 2019-04-29 08:31:35.000000000 Z
@@ -96,6 +105,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/skerbis/search_it/blob/master/plugins/stats/images/phplot/NEWS.txt
   detection_source: plugins/stats/images/phplot/NEWS.txt
   last_updated_by: tyrant88
   last_updated_on: 2016-09-28 14:17:40.000000000 Z
